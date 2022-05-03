@@ -7,7 +7,8 @@
     height: 50px;
     color: white;
     font-size: 20px;
-    background-color: #a0d2f3;
+    background: rgb(41,102,157);
+    background: linear-gradient(90deg, rgba(41,102,157,1) 1%, rgba(90,168,215,1) 35%, rgba(128,205,221,1) 100%);;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +97,8 @@
 
 .footerContainer{
     color: white;
-    background-color: #a0d2f3;
+    background: rgb(41,102,157);
+    background: linear-gradient(90deg, rgba(41,102,157,1) 1%, rgba(90,168,215,1) 35%, rgba(128,205,221,1) 100%);
 }
 
 .footer{

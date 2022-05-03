@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerContainer{
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: #a0d2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 60%;
+}
+
+.menu{
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu:hover{
+    background-color: #95fab9;
+}
+
+.sectionContainer{
+    margin: 10px;
+    color: #a0d2f3;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.section{
+    width: 80%;
+    height: 250%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.iconosRedes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nube{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainContainer{
+    color: #a0d2f3;
+    background-image: url(imagenes/Diapositiva1.PNG);
+    background-size: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.sectionMain{
+    height: 500%;
+    display: flex;
+    justify-content: center;
+}
+
+.article{
+    padding: 30px;
+}
+
+.h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.parrafo{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h2{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footerContainer{
+    color: white;
+    background-color: #a0d2f3;
+}
+
+.footer{
+    padding: 20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.iconosFooter{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto{
+    display: flex;
+    justify-content: start;
+}
+
+.maps{
+    display: flex;
+    justify-content: start;
+}
+
+.fotoContainer{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.fotoItem{
+    justify-content: space-around;
+}
+

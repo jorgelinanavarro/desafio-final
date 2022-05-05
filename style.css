@@ -3,38 +3,9 @@
     padding: 0;
 }
 
-.headerContainer{
-    height: 50px;
-    color: white;
-    font-size: 20px;
+.backgroundColor{
     background: rgb(41,102,157);
-    background: linear-gradient(90deg, rgba(41,102,157,1) 1%, rgba(90,168,215,1) 35%, rgba(128,205,221,1) 100%);;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav{
-    width: 60%;
-}
-
-.menu{
-    padding: 10px;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.lista{
-    padding: 10px;
-    background-color: aliceblue;
-
-}
-
-.menu:hover{
-    background-color: white;
+    background: linear-gradient(90deg, rgba(41,102,157,1) 1%, rgba(90,168,215,1) 35%, rgba(128,205,221,1) 100%);;;
 }
 
 .sectionContainer{
@@ -131,8 +102,7 @@
     justify-content: start;
 }
 
-.fotoContainer{
-    margin: 20px;
+.cardFlex{
     display: flex;
     justify-content: space-around;
 }
@@ -147,38 +117,12 @@
     justify-content: space-around;
 }
 
-.slider{
-    width: 80%;
-    margin:auto;
-    overflow: hidden;
+.tamañoCarousel{
+    justify-content: center;
+    width: 300px;
+    height: 500px;
 }
 
-.carrusel li{
-    list-style: none;
-    width: 100%;
-}
-
-.img-carrusel{
-    width: 100%;
-}
-
-.carrusel{
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: carrusel 20s linear infinite alternate;
-}
-
-@keyframes carrusel{
-    0%{ margin-left: 0;}
-    20%{ margin-left: 0;}
-
-    25%{ margin-left: -100%;}
-    45%{ margin-left: -100%;}
-
-    50%{ margin-left: -200%;}
-    70%{ margin-left: -200%;}
-
-    75%{ margin-left: -300%;}
-    100%{ margin-left: -300%;}
+p{
+    font-size: 30px;
 }

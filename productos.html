@@ -9,78 +9,179 @@
     <title>Nube de Papel</title>
 </head>
 <body>
-    <header class="headerContainer">
-        <nav class="nav">
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="cursos.html">Cursos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="ingresar.html">Ingresar</a></li>
-            </ul>
-        </nav>
+    <!-- componentes navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark backgroundColor">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <p>Nube de Papel</p>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link" href="productos.html">Productos</a>
+                  <a class="nav-link" href="cursos.html">Cursos</a>
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                  <a class="nav-link" href="ingresar.html">Ingresar</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
+
     <main class="mainContainer">
-        <div class="foto">
-            <div class="fotoItem">
-                <img src="imagenes/papel fotografico.jpg" alt="papel fotog">Papel Fotografico 140 grms A4
+        <!-- productos -->
+        <h1>PRODUCTOS</h1>
+        <!-- seccion papel fotografico -->
+        <p>FOTOGRAFIA</p>
+        <section class="cardFlex">
+        <div class="card" style="width: 18rem;">
+            <img src="imagenes/papel fotografico.jpg" class="card-img-top" alt="fotografia">
+            <div class="card-body">
+              <h5 class="card-title">FOTOGRAFIA</h5>
+              <p class="card-text">Papel Fotografico A4 140 grms</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
-            <div class="fotoItem"> 
-                <img src="imagenes/papel fotografico.jpg" alt="papel fotog">Papel Fotografico 160 grms A4
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/papel fotografico.jpg" class="card-img-top" alt="fotografia">
+            <div class="card-body">
+              <h5 class="card-title">FOTOGRAFIA</h5>
+              <p class="card-text">Papel Fotografico A4 160 grms</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
-            <div class="fotoItem"> 
-                <img src="imagenes/papel fotografico.jpg" alt="papel fotog">Papel Fotografico 200 grms A4
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/papel fotografico.jpg" class="card-img-top" alt="fotografia">
+            <div class="card-body">
+              <h5 class="card-title">FOTOGRAFIA</h5>
+              <p class="card-text">Papel Fotografico A4 200 grms</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
-            <div class="fotoItem">
-                <img src="imagenes/papel fotografico.jpg" alt="papel fotog">Papel Fotografico 200 grms A3
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/papel fotografico.jpg" class="card-img-top" alt="fotografia">
+            <div class="card-body">
+              <h5 class="card-title">Fotografia</h5>
+              <p class="card-text">Papel Fotgrafico A3 200 grms</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
-            <div class="fotoItem">
-                <img src="imagenes/papel c adhesivo.png" alt="papel fotog c/ adh">Papel Fotografico c/ Adhesivo A4
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/papel c adhesivo.png" class="card-img-top" alt="fotografia">
+            <div class="card-body">
+              <h5 class="card-title">Fotografia</h5>
+              <p class="card-text"> Papel Fotografico A4 con adhesivo</p>
+              <a href="#" class="btn btn-primary">Comprar</a>
             </div>
-        </div>
-        <div class="foto">
-            <div class="fotoItem">
-                <img src="imagenes/papel obra.jpg" alt="papel obra">Papel Obra 120 grms A4
-            </div>
-            <div class="fotoItem">
-                <img src="imagenes/papel obra.jpg" alt="papel obra">Papel obra 150 grms A4
-            </div>
-            <div class="fotoItem">
-                <img src="imagenes/papel obra.jpg" alt="papel obra">Papel Obra 180 grms A4
-            </div>
-            <div class="fotoItem">
-                <img src="imagenes/papel obra.jpg" alt="papel obra">Papel Obra 200 grms A4
-            </div>
-            <div class="fotoItem">
-                <img src="imagenes/papel obra.jpg" alt="papel obra">Papel Obra 240 grms A4
-            </div>
-        </div>
-       <div class="foto">
-           <div class="fotoItem">
-               <img src="imagenes/opalina color.jpg" alt="opalina">Opalina color x 10 
-           </div>
-           <div class="fotoItem">
-               <img src="imagenes/opalina pastel.jpg" alt="opalina">Opalina Pastel x 10
-           </div>
-           <div>
-               <img src="imagenes/opalina neon.jpg" alt="opalina">Opalina Fluo x 10
-           </div>
-       </div>
-       <div class="foto">
-           <div class="fotoItem">
-               <img src="imagenes/foil c lunares.jpg" alt="foil">Foil c/lunares 
-           </div>
-           <div class="fotoItem">
-               <img src="imagenes/foil corazon.jpg" alt="foil">Foil c/corazones
-           </div>
-           <div class="fotoItem">
-               <img src="imagenes/foil estrellas.jpg" alt="foil">Foil c/estrellas
-           </div>
-       </div>
-    </main>
-
-
-    <footer class="footerContainer">
+          </div>
+        </section>
+        <!-- seccion papel obra -->
+        <P>OBRA</P>
+        <section class="cardFlex">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/papel obra.jpg" class="card-img-top" alt="obra">
+                <div class="card-body">
+                  <h5 class="card-title">Obra</h5>
+                  <p class="card-text">Papel Obra A4 120 grms</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="imagenes/papel obra.jpg" class="card-img-top" alt="obra">
+                <div class="card-body">
+                  <h5 class="card-title">Obra</h5>
+                  <p class="card-text">Papel Obra A4 150 grms</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="imagenes/papel obra.jpg" class="card-img-top" alt="obra">
+                <div class="card-body">
+                  <h5 class="card-title">Obra</h5>
+                  <p class="card-text">Papel Obra A4 180 grms</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="imagenes/papel obra.jpg" class="card-img-top" alt="obra">
+                <div class="card-body">
+                  <h5 class="card-title">Obra</h5>
+                  <p class="card-text">Papel Obra A4 200 grms</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="imagenes/papel obra.jpg" class="card-img-top" alt="obra">
+                <div class="card-body">
+                  <h5 class="card-title">Obra</h5>
+                  <p class="card-text"> Papel Obra A4 240 gmrs</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+            </section>
+            <!-- seccion opalinas -->
+            <p>OPALINAS</p>
+            <section class="cardFlex">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/opalina color.jpg" class="card-img-top" alt="opalina">
+                    <div class="card-body">
+                      <h5 class="card-title">Opalina</h5>
+                      <p class="card-text">Opalina color x 10 hojas</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="imagenes/opalina neon.jpg" class="card-img-top" alt="opalina">
+                    <div class="card-body">
+                      <h5 class="card-title">Opalina</h5>
+                      <p class="card-text">Opalina neon x 10 hojas</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="imagenes/opalina pastel.jpg" class="card-img-top" alt="opalina">
+                    <div class="card-body">
+                      <h5 class="card-title">Opalina</h5>
+                      <p class="card-text">Opalina pastel x 10 hojas</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+            </section>
+            <!-- seccion foil -->
+            <p>FOIL</p>
+            <section class="cardFlex">
+                <div class="card" style="width: 18rem;">
+                    <img src="imageneS/foil c lunares.jpg" class="card-img-top" alt="foil lunar">
+                    <div class="card-body">
+                      <h5 class="card-title">Foil</h5>
+                      <p class="card-text">Foil c/ lunares</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="imagenes/foil corazon.jpg" class="card-img-top" alt="foil corazon">
+                    <div class="card-body">
+                      <h5 class="card-title">Foil</h5>
+                      <p class="card-text">Foil c/ corazones</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="imagenes/foil estrellas.jpg" class="card-img-top" alt="foil estrellas">
+                    <div class="card-body">
+                      <h5 class="card-title">Foil</h5>
+                      <p class="card-text">Foil c/ estrellas</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                  </div>
+            </section>
+        </main>
+        
+        <footer class="footerContainer">
         <p class="footer">Seguinos en nuestras redes</p>
         <div class="iconosFooter">
             <i class="fa-brands fa-instagram"></i>

@@ -53,6 +53,10 @@
     padding: 30px;
 }
 
+.listaIconos{
+    list-style: none;
+}
+
 .h1{
     text-align: center;
     font-size: 60px;
@@ -125,4 +129,58 @@
 
 p{
     font-size: 30px;
+}
+
+/* RESPONSIVE MOBILE */
+@media only screen and (max-width: 450px) {
+ 
+    /* MAIN INDEX */
+    .nube{
+        font-size: 90%;
+    }
+    .buscador{
+        font-size: 90%;
+    }
+    .h1{
+        font-size: 300%;
+    }
+    .parrafo{
+        font-size: 150%;
+    }
+    .h2{
+        font-size: 100%;
+    }
+    .h3{
+        font-size: 150%;
+    }
+
+    /* MAIN CONTACTO */
+
+    .contacto{
+        display: flex;
+        justify-content: center;
+    }
+    .maps{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 60%;
+    }
+
+    /* MAIN CURSOS */
+    .cardFlex{
+        display: inline-block;
+        justify-content: center;
+        align-items: space-around;
+    }
+    .card-text{
+        font-size: 80%;
+    }
+
+    .foto{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
 }

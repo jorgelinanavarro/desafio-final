@@ -1,0 +1,31 @@
+/* MAIN CURSOS*/
+
+.mainContainer{
+    .cardFlex{
+        display: flex;
+        justify-content: space-around;
+    
+        }
+    .foto{
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 450px){
+    .mainContainer{
+        .cardFlex{
+            .cardText{
+                font-size: 80%;
+            }
+        }
+        .foto{
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+    }
+}

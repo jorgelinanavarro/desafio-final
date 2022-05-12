@@ -1,0 +1,17 @@
+.footerContainer{
+   color: white;
+   background: rgb(41,102,157);
+   background: linear-gradient(90deg, rgba(41,102,157,1) 1%, rgba(90,168,215,1) 35%, rgba(128,205,221,1) 100%);;;
+   .footer{
+       padding: 20px;
+       font-size: 30px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       text-align: center;
+   }
+   .iconosFooter{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+}

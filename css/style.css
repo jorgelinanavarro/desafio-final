@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* nesting o anidamiento*/
+.sectionContainer {
+  margin: 10px;
+  color: #a0d2f3;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.sectionContainer .section {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sectionContainer .section .nube {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.sectionContainer .section .iconosRedes {
+  display: flex;
+  justify-content: space-around;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  color: #a0d2f3;
+  background-image: url(../imagenes/Diapositiva1.PNG);
+  background-size: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+header {
+  background: rgb(41, 102, 157);
+  background: linear-gradient(90deg, rgb(41, 102, 157) 1%, rgb(90, 168, 215) 35%, rgb(128, 205, 221) 100%);
+}
+
+.mainContainer .sectionMain {
+  height: 500%;
+  display: flex;
+  justify-content: center;
+}
+.mainContainer .sectionMain .article {
+  padding: 30px;
+}
+.mainContainer .sectionMain .article .h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.mainContainer .sectionMain .article .parrafo {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.mainContainer .sectionMain .article .listaIconos {
+  list-style: none;
+}
+.mainContainer .sectionMain .article .h2 {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.mainContainer .sectionMain .article .h3 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 450px) {
+  .sectionContainer .section .nube {
+    font-size: 90%;
+  }
+  .sectionContainer .section .buscador {
+    font-size: 90%;
+  }
+
+  .mainContainer .sectionMain .article .h1 {
+    font-size: 300%;
+  }
+  .mainContainer .sectionMain .article .h2 {
+    font-size: 100%;
+  }
+  .mainContainer .sectionMain .article .h3 {
+    font-size: 150%;
+  }
+  .mainContainer .sectionMain .article .parrafo {
+    font-size: 150%;
+  }
+}
+.footerContainer {
+  color: white;
+  background: rgb(41, 102, 157);
+  background: linear-gradient(90deg, rgb(41, 102, 157) 1%, rgb(90, 168, 215) 35%, rgb(128, 205, 221) 100%);
+}
+.footerContainer .footer {
+  padding: 20px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.footerContainer .iconosFooter {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* MAIN PRODUCTOS*/
+.mainContainer h1 {
+  text-align: center;
+  font-size: 200%;
+}
+.mainContainer p {
+  font-size: 150%;
+}
+.mainContainer .cardFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* MAIN CONTACTO*/
+.mainContainer .contacto {
+  display: flex;
+  justify-content: start;
+}
+.mainContainer .maps {
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+/* MOBILE*/
+@media only screen and (max-width: 450px) {
+  .mainContainer .contacto {
+    display: flex;
+    justify-content: center;
+  }
+  .mainContainer .maps {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 60%;
+  }
+}
+/* MAIN INGRESAR*/
+.mainContainer .carousel {
+  justify-content: center;
+}
+.mainContainer .tamañoCarousel {
+  justify-content: center;
+  width: 300px;
+  height: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */

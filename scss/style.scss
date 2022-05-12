@@ -1,0 +1,32 @@
+/* nesting o anidamiento*/
+
+.sectionContainer{
+    margin: 10px;
+    color: #a0d2f3;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    .section{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        .nube{
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        .iconosRedes{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
+
+@import '../scss/base/estilosGenerales';
+@import '../scss/components/header';
+@import '../scss/components/mainIndex';
+@import '../scss/components/footer';
+@import '../scss/components/mainProductos';
+@import '../scss/components/mainContacto';
+@import '../scss/components/mainIngresar'

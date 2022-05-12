@@ -1,0 +1,64 @@
+
+.mainContainer{
+    .sectionMain{
+        height: 500%;
+        display: flex;
+        justify-content: center;
+        .article{
+            padding: 30px;
+            .h1{
+                text-align: center;
+                font-size: 60px;
+            }
+            .parrafo{
+                font-size: 30px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            .listaIconos{
+                list-style: none;
+            }
+            .h2{
+                font-size: 20px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            .h3{
+                font-size: 30px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+        }
+    }
+}
+/* MOBILE */
+
+@media only screen and (max-width: 450px){
+        .sectionContainer{
+            .section{
+                .nube{
+                    font-size: 90%;
+                }
+                .buscador{
+                    font-size: 90%;
+                }
+            }
+
+        }
+        .mainContainer{
+            .sectionMain{
+                .article{
+                    .h1{
+                        font-size: 300%;
+                    }
+                    .h2{
+                        font-size: 100%;
+                    }
+                    .h3{
+                        font-size: 150%;
+                    }
+                    .parrafo{
+                        font-size: 150%;
+                    }
+                }
+            }
+        }
+    }
+      

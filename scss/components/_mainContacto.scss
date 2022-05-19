@@ -2,13 +2,11 @@
 
 .mainContainer{
     .contacto{
-        display: flex;
-        justify-content: start;
+        @include flex (flex, start);
     }
     .maps{
         padding: 10px;
-        display: flex;
-        justify-content: start;
+        @include flex (flex, start);
     }
 }
 /* MOBILE*/
@@ -16,12 +14,10 @@
 @media only screen and(max-width: 450px){
     .mainContainer{
         .contacto{
-            display: flex;
-            justify-content: center;
+            @include flex (flex, center);
         }
         .maps{
-            display: flex;
-            justify-content: center;
+            @include flex (flex, center);
             width: 80%;
             height: 60%;
         }

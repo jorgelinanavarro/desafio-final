@@ -10,8 +10,7 @@
    }
    .iconosFooter{
     padding: 10px;
-    display: flex;
-    justify-content: center;
+    @include flex (flex, center);
 }
 
 }

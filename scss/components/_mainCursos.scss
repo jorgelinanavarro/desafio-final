@@ -1,15 +1,19 @@
 /* MAIN CURSOS*/
 
 .mainContainer{
+    h1{
+        @extend %font;
+    }
     .cardFlex{
-        display: flex;
-        justify-content: space-around;
+        @include flex (flex, center);
     
         }
     .foto{
-        display: flex;
         width: 50%;
-        justify-content: space-around;
+        @include flex (flex, space-around);
+    }
+    .color-card{
+        background-color: #f2f7f7;
     }
 }
 

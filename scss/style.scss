@@ -24,9 +24,13 @@
 }
 
 @import '../scss/base/estilosGenerales';
+@import '../scss/base/mixin';
+@import '../scss/base/extends';
 @import '../scss/components/header';
 @import '../scss/components/mainIndex';
 @import '../scss/components/footer';
 @import '../scss/components/mainProductos';
 @import '../scss/components/mainContacto';
-@import '../scss/components/mainIngresar'
+@import '../scss/components/mainIngresar';
+@import '../scss/components/mainCursos';
+

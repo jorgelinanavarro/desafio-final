@@ -34,6 +34,7 @@
   background-size: 100%;
   justify-content: center;
   text-align: center;
+  min-height: 100vh;
 }
 
 .mainContainer h1, .mainContainer .sectionMain .article .h1 {
@@ -111,6 +112,12 @@ header {
   justify-content: center;
 }
 
+/* MOBILE*/
+@media only screen and (max-width: 450px) {
+  .footerContainer .footer {
+    font-size: 80%;
+  }
+}
 /* MAIN PRODUCTOS*/
 .mainContainer h1 {
   text-align: center;

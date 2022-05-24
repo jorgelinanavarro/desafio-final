@@ -8,7 +8,6 @@
     p{
         font-size: 150%;
     }
-    
     .cardFlex{
     @include flex (flex, space-around);
     }
@@ -16,4 +15,28 @@
         background-color: #f2f7f7;
     }
 
+}
+
+/* MOBILE */
+@media only screen and (max-width: 450px) {
+    .mainContainer{
+        h1{
+            font-size: 200%;
+        }
+
+        .position-card{
+            display: block;
+        }
+        .cardFlex{
+            .cardText{
+                font-size: 80%;
+            }
+            
+        }
+        .foto{
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+    }
 }

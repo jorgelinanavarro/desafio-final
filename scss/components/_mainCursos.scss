@@ -20,6 +20,12 @@
 /* MOBILE */
 @media only screen and (max-width: 450px){
     .mainContainer{
+        h1{
+            font-size: 200%;
+        }
+        .position-card{
+            display: block;
+        }
         .cardFlex{
             .cardText{
                 font-size: 80%;

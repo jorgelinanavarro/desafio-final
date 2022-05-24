@@ -133,7 +133,27 @@ header {
   background-color: #f2f7f7;
 }
 
+/* MOBILE */
+@media only screen and (max-width: 450px) {
+  .mainContainer h1 {
+    font-size: 200%;
+  }
+  .mainContainer .position-card {
+    display: block;
+  }
+  .mainContainer .cardFlex .cardText {
+    font-size: 80%;
+  }
+  .mainContainer .foto {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
 /* MAIN CONTACTO*/
+.mainContainer h1 {
+  font-size: 40px;
+}
 .mainContainer .contacto {
   display: flex;
   justify-content: start;
@@ -146,6 +166,9 @@ header {
 
 /* MOBILE*/
 @media only screen and (max-width: 450px) {
+  .mainContainer h1 {
+    font-size: 100%;
+  }
   .mainContainer .contacto {
     display: flex;
     justify-content: center;
@@ -158,6 +181,9 @@ header {
   }
 }
 /* MAIN INGRESAR*/
+.mainContainer h1 {
+  font-size: 40px;
+}
 .mainContainer .carousel {
   justify-content: center;
 }
@@ -167,6 +193,12 @@ header {
   height: 500px;
 }
 
+/* MOBILE*/
+@media only screen and (max-width: 450px) {
+  .mainContainer h1 {
+    font-size: 100%;
+  }
+}
 /* MAIN CURSOS*/
 .mainContainer .cardFlex {
   display: flex;
@@ -183,6 +215,12 @@ header {
 
 /* MOBILE */
 @media only screen and (max-width: 450px) {
+  .mainContainer h1 {
+    font-size: 200%;
+  }
+  .mainContainer .position-card {
+    display: block;
+  }
   .mainContainer .cardFlex .cardText {
     font-size: 80%;
   }

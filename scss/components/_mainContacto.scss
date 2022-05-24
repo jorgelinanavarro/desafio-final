@@ -1,6 +1,9 @@
 /* MAIN CONTACTO*/
 
 .mainContainer{
+    h1{
+        font-size: 40px;
+    }
     .contacto{
         @include flex (flex, start);
     }
@@ -13,6 +16,9 @@
 
 @media only screen and(max-width: 450px){
     .mainContainer{
+        h1{
+            font-size: 100%
+        }
         .contacto{
             @include flex (flex, center);
         }

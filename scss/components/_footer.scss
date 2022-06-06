@@ -3,8 +3,9 @@
    background: rgb(41,102,157);
    background: linear-gradient(90deg, rgba(41,102,157,1) 1%, rgba(90,168,215,1) 35%, rgba(128,205,221,1) 100%);;;
    .footer{
+       display: flex;
        padding: 20px;
-       font-size: 30px;
+       font-size: 20px;
        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        text-align: center;
    }

@@ -31,6 +31,9 @@
         }
         .contacto{
             @include flex (flex, center);
+            display: inline-flex;
+            justify-content: center;
+            width: 50%;
         }
         .maps{
             @include flex (flex, center);

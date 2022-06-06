@@ -182,6 +182,9 @@ header {
   .mainContainer .contacto {
     display: flex;
     justify-content: center;
+    display: inline-flex;
+    justify-content: center;
+    width: 50%;
   }
   .mainContainer .maps {
     display: flex;
@@ -215,6 +218,9 @@ header {
 @media only screen and (max-width: 450px) {
   .mainContainer h1 {
     font-size: 100%;
+  }
+  .mainContainer .ingresar {
+    width: 50%;
   }
 }
 /* MAIN CURSOS*/
